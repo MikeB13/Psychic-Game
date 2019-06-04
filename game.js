@@ -6,7 +6,7 @@ var wins = 0;
 // Create a var for computer to generate a random letter
 
 var computerGuess =
-    String.fromCharCode(Math.random(Math.random() * 26) + 97);
+    String.fromCharCode(Math.random(Math.random() * 26));
 
 // Log the computers guess
 console.log(computerGuess);
